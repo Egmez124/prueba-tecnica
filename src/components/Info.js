@@ -3,12 +3,14 @@ import logo from '../imgs/Group 4032.png'
 const Info = ()=> {
     return (
         <div className="container-info">
-            <div className="container-center">
+            <div className="container-text">
                 <img src={logo} alt="logo" className="img01"></img>
-                <h1 className="text01">Desarrolla todo tu POTENCIAL dentro del equipo ATOMICLABS</h1>
-                <Link className="boton01" to="/login">
-                    <button>!Quiero ser parte!</button>
-                </Link>
+                <div className="titulo">    
+                    <h1 className="text01">Desarrolla todo <span>tu POTENCIAL</span> dentro del equipo <span>ATOMIC</span>LABS</h1>
+                    <Link to="/login">
+                        <button className="boton01">!Quiero ser parte!</button>
+                    </Link>
+                </div>
             </div>
         </div>
     )
