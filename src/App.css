@@ -20,6 +20,7 @@
   height: 500px;
   margin-top: 50px;
   margin-left: 50px;
+  margin-bottom: 65px;
 }
 .text01 {
   color: aliceblue;
@@ -108,11 +109,108 @@ progress{
   background-color: #d73620;
 }
 .fila-2{
-  display: flex;
-  justify-content: flex-end;
+  grid-column: 1/3;
 }
 /* Validate */
 .img03{
   width: 500px;
   height: 600px;
+}
+/* Codigo */
+.column-validate{
+  display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-validate{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  color: aliceblue;
+}
+.text-validate-1{
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.resend-code{
+  text-align: left;
+  font-size: 25px;
+  color: aliceblue;
+}
+.resend-code > span{
+  
+  font-weight: 100;
+}
+.container-send-code{
+  background-image: url(./imgs/Mask\ Group\ 1.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.img-ok{
+  width: 50px;
+  height: 50px;
+}
+.container-send-code > .text-send-code{
+  color: aliceblue;
+  text-decoration: node;
+  outline: none;
+}
+.conditions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img04{
+  margin-right: 100px;
+  margin-top: 100px;
+  width: 300px;
+  height: 500px;
+}
+.column-data{
+  text-align: left;
+  margin-top: 150px;
+}
+.text-sen-data >.text-data{
+  font-size: 20px;
+  margin: auto auto 0px auto;
+  text-align: left;
+  color: aliceblue;
+}
+.text-sen-data > p{
+  text-align: left;
+  color: aliceblue;
+}
+#anuncio{
+  margin-top: 0px;
+}
+#anuncio-1{
+  margin-bottom: 0px;
+}
+.pie{
+  background-color: black;
+  width: 100%;
+  grid-column: 1/3;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pie > div{
+  color: aliceblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 13px;
+}
+.container-img{
+  width: 300px;
+  height: 500px;
 }

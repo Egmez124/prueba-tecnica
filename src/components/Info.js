@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom';
 import logo from '../imgs/Group 4032.png'
+import twitter from '../imgs/twitter.png'
+import linkedin from '../imgs/linkedin.png'
 const Info = ()=> {
     return (
         <div className="container-info">
@@ -11,6 +13,13 @@ const Info = ()=> {
                         <button className="boton01">!Quiero ser parte!</button>
                     </Link>
                 </div>
+            </div>
+            <div className="pie">
+                <div>2020 AtomicLabs. Todos los derechos reservados.</div>
+                <div></div>
+                <div><Link to="/terms-conditions"><a>Aviso de privasidad</a></Link></div>
+                <div><img src={linkedin} alt="linkedin"/></div>
+                <div><img src={twitter} alt="twitter"/></div>
             </div>
         </div>
     )
