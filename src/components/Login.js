@@ -10,7 +10,6 @@ import linkedin from '../imgs/linkedin.png'
 const Login = ()=>{
     return (
         <div className="container-login">
-            {/* <img className="logo"></img> */}
             <div className="column-1">
                 <div className="numbers">
                     <img src={number1} alt="number1" className="1"></img>
@@ -49,7 +48,7 @@ const Login = ()=>{
             <div className="pie">
                 <div>2020 AtomicLabs. Todos los derechos reservados.</div>
                 <div></div>
-                <div><Link to="/terms-conditions"><a>Aviso de privasidad</a></Link></div>
+                <div><Link to="/terms-conditions"><p>Aviso de privasidad</p></Link></div>
                 <div><img src={linkedin} alt="linkedin"/></div>
                 <div><img src={twitter} alt="twitter"/></div>
             </div>

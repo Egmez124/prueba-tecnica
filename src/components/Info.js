@@ -14,10 +14,10 @@ const Info = ()=> {
                     </Link>
                 </div>
             </div>
-            <div className="pie">
+            <div className="pie-info">
                 <div>2020 AtomicLabs. Todos los derechos reservados.</div>
                 <div></div>
-                <div><Link to="/terms-conditions"><a>Aviso de privasidad</a></Link></div>
+                <div><Link to="/terms-conditions"><p>Aviso de privasidad</p></Link></div>
                 <div><img src={linkedin} alt="linkedin"/></div>
                 <div><img src={twitter} alt="twitter"/></div>
             </div>

@@ -9,7 +9,6 @@ import ResendCode from './components/Resend_Code';
 import AceptTerms from './components/Acept_Terms';
 import SendData from './components/Send_Data';
 import TermsConditions from './components/Terms_conditions';
-
 function App() {
   return (
     <div className="App">

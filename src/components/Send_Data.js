@@ -5,7 +5,6 @@ import linkedin from '../imgs/linkedin.png'
 const SendData = ()=>{
     return (
             <div className="container-login">
-            {/* <img className="logo"></img> */}
             <div className="column-1">
                 <div className="column-data">
                     <h1 id="title02">TUS DATOS <br/><span>HAN SIDO ENVIADOS <br/>CON ÉXITOS</span></h1>
@@ -23,7 +22,7 @@ const SendData = ()=>{
             <div className="pie">
                 <div>2020 AtomicLabs. Todos los derechos reservados.</div>
                 <div></div>
-                <div><Link to="/terms-conditions"><a>Aviso de privasidad</a></Link></div>
+                <div><Link to="/terms-conditions"><p>Aviso de privasidad</p></Link></div>
                 <div><img src={linkedin} alt=""/></div>
                 <div><img src={twitter} alt=""/></div>
             </div>

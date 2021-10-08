@@ -10,7 +10,6 @@ import linkedin from '../imgs/linkedin.png'
 const Validate = ()=> {
     return (
         <div className="container-login">
-            {/* <img className="logo"></img> */}
             <div className="column-1">
                 <div className="numbers">
                     <img src={number1} alt="number1" className="1"></img>
@@ -22,7 +21,7 @@ const Validate = ()=> {
                     </div>
                 </div>
                 <div className="column-validate">
-                    <div><Link to="/login"><a>Regresar</a></Link></div>
+                    <div><Link to="/login"><p>Regresar</p></Link></div>
                     <img src={big2} alt="big2" className="big-1"></img>
                     <h1 id="title02">VALIDA TU <span>CELULAR</span></h1>
                 </div>
@@ -48,7 +47,7 @@ const Validate = ()=> {
             <div className="pie">
                 <div>2020 AtomicLabs. Todos los derechos reservados.</div>
                 <div></div>
-                <div><Link to="/terms-conditions"><a>Aviso de privasidad</a></Link></div>
+                <div><Link to="/terms-conditions"><p>Aviso de privasidad</p></Link></div>
                 <div><img src={linkedin} alt="linkedin"/></div>
                 <div><img src={twitter} alt="twitter"/></div>
             </div>
